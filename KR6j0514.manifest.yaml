@@ -1,0 +1,64 @@
+canonical_identifier: bkk:krp/KR6j0514/v1
+canonical_location: https://kanripo.org/bkk/KR6j0514/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說寶藏神大明曼拏羅儀軌經
+  identifiers:
+    alt_id:
+    - T21n1283
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1283.xml
+    old_id: T21n1283
+  edition:
+    short: bkk
+editions:
+- short: 明
+  label: 明
+  source_xml_id: wit1
+- short: 宋
+  label: 宋
+  source_xml_id: wit2
+- short: 元
+  label: 元
+  source_xml_id: wit3
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0514_000.yaml, hash: 'sha256:09cd3bd5a881af1b783eef0627cf09195c365b71173987c967295c2afccf2778'}
+  - {seq: 1, filename: KR6j0514_001.yaml, hash: 'sha256:1ea1d65b4a752fdee752c09266d569d4390794e25edf751de6255386607dd65e'}
+  - {seq: 2, filename: KR6j0514_002.yaml, hash: 'sha256:4b54e6e7def4b4a89a6123c74629195108f3726e13fcdd6b128b85b146d51e73'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0514_001.markers.yaml, hash: 'sha256:8cfef1c30c1fc2b0740c08bd4d903d5d25ce49f0f972c03f99afb6a74c592188'}
+  - {seq: 2, role: markers, filename: assets/KR6j0514_002.markers.yaml, hash: 'sha256:ab751c34dde34ee87f8416254942ec613cf1777b7a0f2d68d7a1ecf75147ab4b'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0514_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 3570
+  label: '佛說寶藏神大明曼拏羅儀軌經
+
+    卷上'
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6j0514_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 3507
+  label: '佛說寶藏神大明曼拏羅儀軌經
+
+    卷下'
+  type: juan
+  level: 1
+hash: sha256:16ed108f84bc91181f0394b1289e521aff28841874b1f7964adcd0ffbb7cbb01
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

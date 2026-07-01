@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6j0514/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說寶藏神大明曼拏羅儀軌經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1283.xml
+    old_id: T21n1283
+hash: sha256:09cd3bd5a881af1b783eef0627cf09195c365b71173987c967295c2afccf2778
